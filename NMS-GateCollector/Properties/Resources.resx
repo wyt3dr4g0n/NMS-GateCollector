@@ -1,0 +1,937 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="g0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gal0" xml:space="preserve">
+    <value>Euclid</value>
+  </data>
+  <data name="Gal1" xml:space="preserve">
+    <value>Hilbert Dimension</value>
+  </data>
+  <data name="Gal10" xml:space="preserve">
+    <value>Elkupalos</value>
+  </data>
+  <data name="Gal100" xml:space="preserve">
+    <value>Tuychelisaor</value>
+  </data>
+  <data name="Gal101" xml:space="preserve">
+    <value>Rivskimbe</value>
+  </data>
+  <data name="Gal102" xml:space="preserve">
+    <value>Daksanquix</value>
+  </data>
+  <data name="Gal103" xml:space="preserve">
+    <value>Kissonlin</value>
+  </data>
+  <data name="Gal104" xml:space="preserve">
+    <value>Aediabiel</value>
+  </data>
+  <data name="Gal105" xml:space="preserve">
+    <value>Ulosaginyik</value>
+  </data>
+  <data name="Gal106" xml:space="preserve">
+    <value>Roclaytonycar</value>
+  </data>
+  <data name="Gal107" xml:space="preserve">
+    <value>Kichiaroa</value>
+  </data>
+  <data name="Gal108" xml:space="preserve">
+    <value>Irceauffey</value>
+  </data>
+  <data name="Gal109" xml:space="preserve">
+    <value>Nudquathsenfe</value>
+  </data>
+  <data name="Gal11" xml:space="preserve">
+    <value>Aptarkaba</value>
+  </data>
+  <data name="Gal110" xml:space="preserve">
+    <value>Getaizakaal</value>
+  </data>
+  <data name="Gal111" xml:space="preserve">
+    <value>Hansolmien</value>
+  </data>
+  <data name="Gal112" xml:space="preserve">
+    <value>Bloytisagra</value>
+  </data>
+  <data name="Gal113" xml:space="preserve">
+    <value>Ladsenlay</value>
+  </data>
+  <data name="Gal114" xml:space="preserve">
+    <value>Luyugoslasr</value>
+  </data>
+  <data name="Gal115" xml:space="preserve">
+    <value>Ubredhatk</value>
+  </data>
+  <data name="Gal116" xml:space="preserve">
+    <value>Cidoniana</value>
+  </data>
+  <data name="Gal117" xml:space="preserve">
+    <value>Jasinessa</value>
+  </data>
+  <data name="Gal118" xml:space="preserve">
+    <value>Torweierf</value>
+  </data>
+  <data name="Gal119" xml:space="preserve">
+    <value>Saffneckm</value>
+  </data>
+  <data name="Gal12" xml:space="preserve">
+    <value>Ontiniangp</value>
+  </data>
+  <data name="Gal120" xml:space="preserve">
+    <value>Thnistner</value>
+  </data>
+  <data name="Gal121" xml:space="preserve">
+    <value>Dotusingg</value>
+  </data>
+  <data name="Gal122" xml:space="preserve">
+    <value>Luleukous</value>
+  </data>
+  <data name="Gal123" xml:space="preserve">
+    <value>Jelmandan</value>
+  </data>
+  <data name="Gal124" xml:space="preserve">
+    <value>Otimanaso</value>
+  </data>
+  <data name="Gal125" xml:space="preserve">
+    <value>Enjaxusanto</value>
+  </data>
+  <data name="Gal126" xml:space="preserve">
+    <value>Sezviktorew</value>
+  </data>
+  <data name="Gal127" xml:space="preserve">
+    <value>Zikehpm</value>
+  </data>
+  <data name="Gal128" xml:space="preserve">
+    <value>Bephembah</value>
+  </data>
+  <data name="Gal129" xml:space="preserve">
+    <value>Broomerrai</value>
+  </data>
+  <data name="Gal13" xml:space="preserve">
+    <value>Odiwagiri</value>
+  </data>
+  <data name="Gal130" xml:space="preserve">
+    <value>Meximicka</value>
+  </data>
+  <data name="Gal131" xml:space="preserve">
+    <value>Venessika</value>
+  </data>
+  <data name="Gal132" xml:space="preserve">
+    <value>Gaiteseling</value>
+  </data>
+  <data name="Gal133" xml:space="preserve">
+    <value>Zosakasiro</value>
+  </data>
+  <data name="Gal134" xml:space="preserve">
+    <value>Drajayanes</value>
+  </data>
+  <data name="Gal135" xml:space="preserve">
+    <value>Ooibekuar</value>
+  </data>
+  <data name="Gal136" xml:space="preserve">
+    <value>Urckiansi</value>
+  </data>
+  <data name="Gal137" xml:space="preserve">
+    <value>Dozivadido</value>
+  </data>
+  <data name="Gal138" xml:space="preserve">
+    <value>Emiekereks</value>
+  </data>
+  <data name="Gal139" xml:space="preserve">
+    <value>Meykinunukur</value>
+  </data>
+  <data name="Gal14" xml:space="preserve">
+    <value>Ogtialabi</value>
+  </data>
+  <data name="Gal140" xml:space="preserve">
+    <value>Kimycuristh</value>
+  </data>
+  <data name="Gal141" xml:space="preserve">
+    <value>Roansfien</value>
+  </data>
+  <data name="Gal142" xml:space="preserve">
+    <value>Isgarmeso</value>
+  </data>
+  <data name="Gal143" xml:space="preserve">
+    <value>Daitibeli</value>
+  </data>
+  <data name="Gal144" xml:space="preserve">
+    <value>Gucuttarik</value>
+  </data>
+  <data name="Gal145" xml:space="preserve">
+    <value>Enlaythie</value>
+  </data>
+  <data name="Gal146" xml:space="preserve">
+    <value>Drewweste</value>
+  </data>
+  <data name="Gal147" xml:space="preserve">
+    <value>Akbulkabi</value>
+  </data>
+  <data name="Gal148" xml:space="preserve">
+    <value>Homskiw</value>
+  </data>
+  <data name="Gal149" xml:space="preserve">
+    <value>Zavainlani</value>
+  </data>
+  <data name="Gal15" xml:space="preserve">
+    <value>Muhacksonto</value>
+  </data>
+  <data name="Gal150" xml:space="preserve">
+    <value>Jewijkmas</value>
+  </data>
+  <data name="Gal151" xml:space="preserve">
+    <value>Itlhotagra</value>
+  </data>
+  <data name="Gal152" xml:space="preserve">
+    <value>Podalicess</value>
+  </data>
+  <data name="Gal153" xml:space="preserve">
+    <value>Hiviusauer</value>
+  </data>
+  <data name="Gal154" xml:space="preserve">
+    <value>Halsebenk</value>
+  </data>
+  <data name="Gal155" xml:space="preserve">
+    <value>Puikitoac</value>
+  </data>
+  <data name="Gal156" xml:space="preserve">
+    <value>Gaybakuaria</value>
+  </data>
+  <data name="Gal157" xml:space="preserve">
+    <value>Grbodubhe</value>
+  </data>
+  <data name="Gal158" xml:space="preserve">
+    <value>Rycempler</value>
+  </data>
+  <data name="Gal159" xml:space="preserve">
+    <value>Indjalala</value>
+  </data>
+  <data name="Gal16" xml:space="preserve">
+    <value>Hitonskyer</value>
+  </data>
+  <data name="Gal160" xml:space="preserve">
+    <value>Fontenikk</value>
+  </data>
+  <data name="Gal161" xml:space="preserve">
+    <value>Pasycihelwhee</value>
+  </data>
+  <data name="Gal162" xml:space="preserve">
+    <value>Ikbaksmit</value>
+  </data>
+  <data name="Gal163" xml:space="preserve">
+    <value>Telicianses</value>
+  </data>
+  <data name="Gal164" xml:space="preserve">
+    <value>Oyleyzhan</value>
+  </data>
+  <data name="Gal165" xml:space="preserve">
+    <value>Uagerosat</value>
+  </data>
+  <data name="Gal166" xml:space="preserve">
+    <value>Impoxectin</value>
+  </data>
+  <data name="Gal167" xml:space="preserve">
+    <value>Twoodmand</value>
+  </data>
+  <data name="Gal168" xml:space="preserve">
+    <value>Hilfsesorbs</value>
+  </data>
+  <data name="Gal169" xml:space="preserve">
+    <value>Ezdaranit</value>
+  </data>
+  <data name="Gal17" xml:space="preserve">
+    <value>Rerasmutul</value>
+  </data>
+  <data name="Gal170" xml:space="preserve">
+    <value>Wiensanshe</value>
+  </data>
+  <data name="Gal171" xml:space="preserve">
+    <value>Ewheelonc</value>
+  </data>
+  <data name="Gal172" xml:space="preserve">
+    <value>Litzmantufa</value>
+  </data>
+  <data name="Gal173" xml:space="preserve">
+    <value>Emarmatosi</value>
+  </data>
+  <data name="Gal174" xml:space="preserve">
+    <value>Mufimbomacvi</value>
+  </data>
+  <data name="Gal175" xml:space="preserve">
+    <value>Wongquarum</value>
+  </data>
+  <data name="Gal176" xml:space="preserve">
+    <value>Hapirajua</value>
+  </data>
+  <data name="Gal177" xml:space="preserve">
+    <value>Igbinduina</value>
+  </data>
+  <data name="Gal178" xml:space="preserve">
+    <value>Wepaitvas</value>
+  </data>
+  <data name="Gal179" xml:space="preserve">
+    <value>Sthatigudi</value>
+  </data>
+  <data name="Gal18" xml:space="preserve">
+    <value>Isdoraijung</value>
+  </data>
+  <data name="Gal180" xml:space="preserve">
+    <value>Yekathsebehn</value>
+  </data>
+  <data name="Gal181" xml:space="preserve">
+    <value>Ebedeagurst</value>
+  </data>
+  <data name="Gal182" xml:space="preserve">
+    <value>Nolisonia</value>
+  </data>
+  <data name="Gal183" xml:space="preserve">
+    <value>Ulexovitab</value>
+  </data>
+  <data name="Gal184" xml:space="preserve">
+    <value>Iodhinxois</value>
+  </data>
+  <data name="Gal185" xml:space="preserve">
+    <value>Irroswitzs</value>
+  </data>
+  <data name="Gal186" xml:space="preserve">
+    <value>Bifredait</value>
+  </data>
+  <data name="Gal187" xml:space="preserve">
+    <value>Beiraghedwe</value>
+  </data>
+  <data name="Gal188" xml:space="preserve">
+    <value>Yeonatlak</value>
+  </data>
+  <data name="Gal189" xml:space="preserve">
+    <value>Cugnatachh</value>
+  </data>
+  <data name="Gal19" xml:space="preserve">
+    <value>Doctinawyra</value>
+  </data>
+  <data name="Gal190" xml:space="preserve">
+    <value>Nozoryenki</value>
+  </data>
+  <data name="Gal191" xml:space="preserve">
+    <value>Ebralduri</value>
+  </data>
+  <data name="Gal192" xml:space="preserve">
+    <value>Evcickcandj</value>
+  </data>
+  <data name="Gal193" xml:space="preserve">
+    <value>Ziybosswin</value>
+  </data>
+  <data name="Gal194" xml:space="preserve">
+    <value>Heperclait</value>
+  </data>
+  <data name="Gal195" xml:space="preserve">
+    <value>Sugiuniam</value>
+  </data>
+  <data name="Gal196" xml:space="preserve">
+    <value>Aaseertush</value>
+  </data>
+  <data name="Gal197" xml:space="preserve">
+    <value>Uglyestemaa</value>
+  </data>
+  <data name="Gal198" xml:space="preserve">
+    <value>Horeroedsh</value>
+  </data>
+  <data name="Gal199" xml:space="preserve">
+    <value>Drundemiso</value>
+  </data>
+  <data name="Gal2" xml:space="preserve">
+    <value>Calypso</value>
+  </data>
+  <data name="Gal20" xml:space="preserve">
+    <value>Loychazinq</value>
+  </data>
+  <data name="Gal200" xml:space="preserve">
+    <value>Ityanianat</value>
+  </data>
+  <data name="Gal201" xml:space="preserve">
+    <value>Purneyrine</value>
+  </data>
+  <data name="Gal202" xml:space="preserve">
+    <value>Dokiessmat</value>
+  </data>
+  <data name="Gal203" xml:space="preserve">
+    <value>Nupiacheh</value>
+  </data>
+  <data name="Gal204" xml:space="preserve">
+    <value>Dihewsonj</value>
+  </data>
+  <data name="Gal205" xml:space="preserve">
+    <value>Rudrailhik</value>
+  </data>
+  <data name="Gal206" xml:space="preserve">
+    <value>Tweretnort</value>
+  </data>
+  <data name="Gal207" xml:space="preserve">
+    <value>Snatreetze</value>
+  </data>
+  <data name="Gal208" xml:space="preserve">
+    <value>Iwunddaracos</value>
+  </data>
+  <data name="Gal209" xml:space="preserve">
+    <value>Digarlewena</value>
+  </data>
+  <data name="Gal21" xml:space="preserve">
+    <value>Zukasizawa</value>
+  </data>
+  <data name="Gal210" xml:space="preserve">
+    <value>Erquagsta</value>
+  </data>
+  <data name="Gal211" xml:space="preserve">
+    <value>Logovoloin</value>
+  </data>
+  <data name="Gal212" xml:space="preserve">
+    <value>Boyaghosganh</value>
+  </data>
+  <data name="Gal213" xml:space="preserve">
+    <value>Kuolungau</value>
+  </data>
+  <data name="Gal214" xml:space="preserve">
+    <value>Pehneldept</value>
+  </data>
+  <data name="Gal215" xml:space="preserve">
+    <value>Yevettiiqidcon</value>
+  </data>
+  <data name="Gal216" xml:space="preserve">
+    <value>Sahliacabru</value>
+  </data>
+  <data name="Gal217" xml:space="preserve">
+    <value>Noggalterpor</value>
+  </data>
+  <data name="Gal218" xml:space="preserve">
+    <value>Chmageaki</value>
+  </data>
+  <data name="Gal219" xml:space="preserve">
+    <value>Veticueca</value>
+  </data>
+  <data name="Gal22" xml:space="preserve">
+    <value>Ekwathore</value>
+  </data>
+  <data name="Gal220" xml:space="preserve">
+    <value>Vittesbursul</value>
+  </data>
+  <data name="Gal221" xml:space="preserve">
+    <value>Nootanore</value>
+  </data>
+  <data name="Gal222" xml:space="preserve">
+    <value>Innebdjerah</value>
+  </data>
+  <data name="Gal223" xml:space="preserve">
+    <value>Kisvarcini</value>
+  </data>
+  <data name="Gal224" xml:space="preserve">
+    <value>Cuzcogipper</value>
+  </data>
+  <data name="Gal225" xml:space="preserve">
+    <value>Pamanhermonsu</value>
+  </data>
+  <data name="Gal226" xml:space="preserve">
+    <value>Brotoghek</value>
+  </data>
+  <data name="Gal227" xml:space="preserve">
+    <value>Mibittara</value>
+  </data>
+  <data name="Gal228" xml:space="preserve">
+    <value>Huruahili</value>
+  </data>
+  <data name="Gal229" xml:space="preserve">
+    <value>Raldwicarn</value>
+  </data>
+  <data name="Gal23" xml:space="preserve">
+    <value>Yeberhahne</value>
+  </data>
+  <data name="Gal230" xml:space="preserve">
+    <value>Ezdartlic</value>
+  </data>
+  <data name="Gal231" xml:space="preserve">
+    <value>Badesclema</value>
+  </data>
+  <data name="Gal232" xml:space="preserve">
+    <value>Isenkeyan</value>
+  </data>
+  <data name="Gal233" xml:space="preserve">
+    <value>Iadoitesu</value>
+  </data>
+  <data name="Gal234" xml:space="preserve">
+    <value>Yagrovoisi</value>
+  </data>
+  <data name="Gal235" xml:space="preserve">
+    <value>Ewcomechio</value>
+  </data>
+  <data name="Gal236" xml:space="preserve">
+    <value>Inunnunnoda</value>
+  </data>
+  <data name="Gal237" xml:space="preserve">
+    <value>Dischiutun</value>
+  </data>
+  <data name="Gal238" xml:space="preserve">
+    <value>Yuwarugha</value>
+  </data>
+  <data name="Gal239" xml:space="preserve">
+    <value>Ialmendra</value>
+  </data>
+  <data name="Gal24" xml:space="preserve">
+    <value>Twerbetek</value>
+  </data>
+  <data name="Gal240" xml:space="preserve">
+    <value>Reponudrle</value>
+  </data>
+  <data name="Gal241" xml:space="preserve">
+    <value>Rinjanagrbo</value>
+  </data>
+  <data name="Gal242" xml:space="preserve">
+    <value>Zeziceloh</value>
+  </data>
+  <data name="Gal243" xml:space="preserve">
+    <value>Oeileutasc</value>
+  </data>
+  <data name="Gal244" xml:space="preserve">
+    <value>Zicniijinis</value>
+  </data>
+  <data name="Gal245" xml:space="preserve">
+    <value>Dugnowarilda</value>
+  </data>
+  <data name="Gal246" xml:space="preserve">
+    <value>Neuxoisan</value>
+  </data>
+  <data name="Gal247" xml:space="preserve">
+    <value>Ilmenhorn</value>
+  </data>
+  <data name="Gal248" xml:space="preserve">
+    <value>Rukwatsuku</value>
+  </data>
+  <data name="Gal249" xml:space="preserve">
+    <value>Nepitzaspru</value>
+  </data>
+  <data name="Gal25" xml:space="preserve">
+    <value>Sivarates</value>
+  </data>
+  <data name="Gal250" xml:space="preserve">
+    <value>Chcehoemig</value>
+  </data>
+  <data name="Gal251" xml:space="preserve">
+    <value>Haffneyrin</value>
+  </data>
+  <data name="Gal252" xml:space="preserve">
+    <value>Uliciawai</value>
+  </data>
+  <data name="Gal253" xml:space="preserve">
+    <value>Tuhgrespod</value>
+  </data>
+  <data name="Gal254" xml:space="preserve">
+    <value>Iousongola</value>
+  </data>
+  <data name="Gal255" xml:space="preserve">
+    <value>Odyalutai</value>
+  </data>
+  <data name="Gal26" xml:space="preserve">
+    <value>Eajerandal</value>
+  </data>
+  <data name="Gal27" xml:space="preserve">
+    <value>Aldukesci</value>
+  </data>
+  <data name="Gal28" xml:space="preserve">
+    <value>Wotyarogii</value>
+  </data>
+  <data name="Gal29" xml:space="preserve">
+    <value>Sudzerbal</value>
+  </data>
+  <data name="Gal3" xml:space="preserve">
+    <value>Hesperius Dimension</value>
+  </data>
+  <data name="Gal30" xml:space="preserve">
+    <value>Maupenzhay</value>
+  </data>
+  <data name="Gal31" xml:space="preserve">
+    <value>Sugueziume</value>
+  </data>
+  <data name="Gal32" xml:space="preserve">
+    <value>Brogoweldian</value>
+  </data>
+  <data name="Gal33" xml:space="preserve">
+    <value>Ehbogdenbu</value>
+  </data>
+  <data name="Gal34" xml:space="preserve">
+    <value>Ijsenufryos</value>
+  </data>
+  <data name="Gal35" xml:space="preserve">
+    <value>Nipikulha</value>
+  </data>
+  <data name="Gal36" xml:space="preserve">
+    <value>Autsurabin</value>
+  </data>
+  <data name="Gal37" xml:space="preserve">
+    <value>Lusontrygiamh</value>
+  </data>
+  <data name="Gal38" xml:space="preserve">
+    <value>Rewmanawa</value>
+  </data>
+  <data name="Gal39" xml:space="preserve">
+    <value>Ethiophodhe</value>
+  </data>
+  <data name="Gal4" xml:space="preserve">
+    <value>Hyades</value>
+  </data>
+  <data name="Gal40" xml:space="preserve">
+    <value>Urastrykle</value>
+  </data>
+  <data name="Gal41" xml:space="preserve">
+    <value>Xobeurindj</value>
+  </data>
+  <data name="Gal42" xml:space="preserve">
+    <value>Oniijialdu</value>
+  </data>
+  <data name="Gal43" xml:space="preserve">
+    <value>Wucetosucc</value>
+  </data>
+  <data name="Gal44" xml:space="preserve">
+    <value>Ebyeloofdud</value>
+  </data>
+  <data name="Gal45" xml:space="preserve">
+    <value>Odyavanta</value>
+  </data>
+  <data name="Gal46" xml:space="preserve">
+    <value>Milekistri</value>
+  </data>
+  <data name="Gal47" xml:space="preserve">
+    <value>Waferganh</value>
+  </data>
+  <data name="Gal48" xml:space="preserve">
+    <value>Agnusopwit</value>
+  </data>
+  <data name="Gal49" xml:space="preserve">
+    <value>Teyaypilny</value>
+  </data>
+  <data name="Gal5" xml:space="preserve">
+    <value>Ickjamatew</value>
+  </data>
+  <data name="Gal50" xml:space="preserve">
+    <value>Zalienkosm</value>
+  </data>
+  <data name="Gal51" xml:space="preserve">
+    <value>Ladgudiraf</value>
+  </data>
+  <data name="Gal52" xml:space="preserve">
+    <value>Mushonponte</value>
+  </data>
+  <data name="Gal53" xml:space="preserve">
+    <value>Amsentisz</value>
+  </data>
+  <data name="Gal54" xml:space="preserve">
+    <value>Fladiselm</value>
+  </data>
+  <data name="Gal55" xml:space="preserve">
+    <value>Laanawemb</value>
+  </data>
+  <data name="Gal56" xml:space="preserve">
+    <value>Ilkerloor</value>
+  </data>
+  <data name="Gal57" xml:space="preserve">
+    <value>Davanossi</value>
+  </data>
+  <data name="Gal58" xml:space="preserve">
+    <value>Ploehrliou</value>
+  </data>
+  <data name="Gal59" xml:space="preserve">
+    <value>Corpinyaya</value>
+  </data>
+  <data name="Gal6" xml:space="preserve">
+    <value>Budullangr</value>
+  </data>
+  <data name="Gal60" xml:space="preserve">
+    <value>Leckandmeram</value>
+  </data>
+  <data name="Gal61" xml:space="preserve">
+    <value>Quulngais</value>
+  </data>
+  <data name="Gal62" xml:space="preserve">
+    <value>Nokokipsechl</value>
+  </data>
+  <data name="Gal63" xml:space="preserve">
+    <value>Rinblodesa</value>
+  </data>
+  <data name="Gal64" xml:space="preserve">
+    <value>Loydporpen</value>
+  </data>
+  <data name="Gal65" xml:space="preserve">
+    <value>Ibtrevskip</value>
+  </data>
+  <data name="Gal66" xml:space="preserve">
+    <value>Elkowaldb</value>
+  </data>
+  <data name="Gal67" xml:space="preserve">
+    <value>Heholhofsko</value>
+  </data>
+  <data name="Gal68" xml:space="preserve">
+    <value>Yebrilowisod</value>
+  </data>
+  <data name="Gal69" xml:space="preserve">
+    <value>Husalvangewi</value>
+  </data>
+  <data name="Gal7" xml:space="preserve">
+    <value>Kikolgallr</value>
+  </data>
+  <data name="Gal70" xml:space="preserve">
+    <value>Ovna'uesed</value>
+  </data>
+  <data name="Gal71" xml:space="preserve">
+    <value>Bahibusey</value>
+  </data>
+  <data name="Gal72" xml:space="preserve">
+    <value>Nuybeliaure</value>
+  </data>
+  <data name="Gal73" xml:space="preserve">
+    <value>Doshawchuc</value>
+  </data>
+  <data name="Gal74" xml:space="preserve">
+    <value>Ruckinarkh</value>
+  </data>
+  <data name="Gal75" xml:space="preserve">
+    <value>Thorettac</value>
+  </data>
+  <data name="Gal76" xml:space="preserve">
+    <value>Nuponoparau</value>
+  </data>
+  <data name="Gal77" xml:space="preserve">
+    <value>Moglaschil</value>
+  </data>
+  <data name="Gal78" xml:space="preserve">
+    <value>Uiweupose</value>
+  </data>
+  <data name="Gal79" xml:space="preserve">
+    <value>Nasmilete</value>
+  </data>
+  <data name="Gal8" xml:space="preserve">
+    <value>Eltiensleen</value>
+  </data>
+  <data name="Gal80" xml:space="preserve">
+    <value>Ekdaluskin</value>
+  </data>
+  <data name="Gal81" xml:space="preserve">
+    <value>Hakapanasy</value>
+  </data>
+  <data name="Gal82" xml:space="preserve">
+    <value>Dimonimba</value>
+  </data>
+  <data name="Gal83" xml:space="preserve">
+    <value>Cajaccari</value>
+  </data>
+  <data name="Gal84" xml:space="preserve">
+    <value>Olonerovo</value>
+  </data>
+  <data name="Gal85" xml:space="preserve">
+    <value>Umlanswick</value>
+  </data>
+  <data name="Gal86" xml:space="preserve">
+    <value>Henayliszm</value>
+  </data>
+  <data name="Gal87" xml:space="preserve">
+    <value>Utzenmate</value>
+  </data>
+  <data name="Gal88" xml:space="preserve">
+    <value>Umirpaiya</value>
+  </data>
+  <data name="Gal89" xml:space="preserve">
+    <value>Paholiang</value>
+  </data>
+  <data name="Gal9" xml:space="preserve">
+    <value>Eissentam</value>
+  </data>
+  <data name="Gal90" xml:space="preserve">
+    <value>Iaereznika</value>
+  </data>
+  <data name="Gal91" xml:space="preserve">
+    <value>Yudukagath</value>
+  </data>
+  <data name="Gal92" xml:space="preserve">
+    <value>Boealalosnj</value>
+  </data>
+  <data name="Gal93" xml:space="preserve">
+    <value>Yaevarcko</value>
+  </data>
+  <data name="Gal94" xml:space="preserve">
+    <value>Coellosipp</value>
+  </data>
+  <data name="Gal95" xml:space="preserve">
+    <value>Wayndohalou</value>
+  </data>
+  <data name="Gal96" xml:space="preserve">
+    <value>Smoduraykl</value>
+  </data>
+  <data name="Gal97" xml:space="preserve">
+    <value>Apmaneessu</value>
+  </data>
+  <data name="Gal98" xml:space="preserve">
+    <value>Hicanpaav</value>
+  </data>
+  <data name="Gal99" xml:space="preserve">
+    <value>Akvasanta</value>
+  </data>
+  <data name="gB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.C.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.E.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60px-PORTALSYMBOL.F.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
