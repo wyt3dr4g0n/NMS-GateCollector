@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Resources;
 using System.IO;
 using System.Text.RegularExpressions;
-using NMS_GateCollector;
 
 namespace NMS_GateCollector
 {
@@ -35,9 +32,13 @@ namespace NMS_GateCollector
         public static List<Planet> LoadPlanets()
         {
             Regex fileSearch = new Regex(@"save\d?.hg");
-            FileInfo[] files = GetSaveDir().GetFiles("save*.hg").Where(path => fileSearch.IsMatch(path.Name)).ToArray();
+            FileInfo[] files = GetSaveDir()
+                .GetFiles("save*.hg")
+                .Where(path => fileSearch.IsMatch(path.Name))
+                .ToArray();
             List<Record> planetRecords = new List<Record>();
             List<Planet> planets = new List<Planet>();
+
             foreach (FileInfo file in files)
             {
                 StreamReader r = new StreamReader(file.FullName);
@@ -46,22 +47,17 @@ namespace NMS_GateCollector
                 planetRecords.AddRange(data.DiscoveryManagerData.DiscoveryDataV1.Store.Record.Where(d => d.Dd.Dt == "Planet"));
                 r.Dispose();
             }
+
             Console.WriteLine("Loaded all files");
-            foreach (Record planet in planetRecords)
-            {
-                try
-                {
-                    planets.Add(new Planet(planet));
-                }
-                catch(Exception e)
-                {
-                    Console.WriteLine("Error when attempting to process planet in galaxy:{0}", planet.Dd.Ua.String.Substring(6, 2));
-                }
-            }
-            planets = planets.OrderBy(p => p.Discoverer)
-                             .OrderBy(p => p.GalaxyName)
-                             .OrderByDescending(p => p.Name)
-                             .Distinct(new PlanetEqualityComparator()).ToList();
+
+            planets = planetRecords
+                .Select(p => new Planet(p)).ToList()
+                             .Distinct(new PlanetEqualityComparator())
+                             .OrderByDescending(p => p.HasCustom)
+                             .ThenBy(p => p.Discoverer)
+                             .ThenBy(p => p.Galaxy)
+                             .ThenBy(p => p.Name)
+                             .ToList();
             return planets;
         }
 

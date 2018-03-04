@@ -32,7 +32,9 @@ namespace NMS_GateCollector
         public string Id { get; set; }
         public string Name { get; set; }
         public string Discoverer { get; set; }
+        public int Galaxy { get; set; }
         public string GalaxyName { get; set; }
+        public bool HasCustom { get; set; }
     }
 
     public partial class Position
@@ -66,7 +68,10 @@ namespace NMS_GateCollector
             Id = worldData.Dd.Ua.String;
             Name = worldData.Dm.Cn;
             Discoverer = worldData.Ows.Usn;
-            GalaxyName = Properties.Resources.ResourceManager.GetString(string.Format("Gal{0}", worldData.Dd.GateData.Galaxy));
+            Galaxy = worldData.Dd.GateData.Galaxy;
+            GalaxyName = Properties.Resources.ResourceManager
+                .GetString(string.Format("Gal{0}", worldData.Dd.GateData.Galaxy));
+            HasCustom = Name != null;
         }
     }
 

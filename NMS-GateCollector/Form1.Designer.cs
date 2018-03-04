@@ -205,6 +205,7 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "No Man\'s Sky Gate Collector";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();

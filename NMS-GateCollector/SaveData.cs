@@ -8,12 +8,10 @@ namespace NMS_GateCollector
 {
     using System;
     using System.Collections.Generic;
-    using System.Net;
 
     using System.Globalization;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
-    using NMS_GateCollector;
 
     public partial class SaveData
     {
@@ -1091,7 +1089,7 @@ namespace NMS_GateCollector
 
     public partial class SaveData
     {
-        public static SaveData FromJson(string json) => JsonConvert.DeserializeObject<SaveData>(json, NMS_GateCollector.Converter.Settings);
+        public static SaveData FromJson(string json) => JsonConvert.DeserializeObject<SaveData>(json, Converter.Settings);
     }
 
     public partial struct Ua
@@ -1214,7 +1212,7 @@ namespace NMS_GateCollector
 
     public static class Serialize
     {
-        public static string ToJson(this SaveData self) => JsonConvert.SerializeObject(self, NMS_GateCollector.Converter.Settings);
+        public static string ToJson(this SaveData self) => JsonConvert.SerializeObject(self, Converter.Settings);
     }
 
     internal class Converter : JsonConverter

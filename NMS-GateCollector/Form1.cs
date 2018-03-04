@@ -12,7 +12,7 @@ namespace NMS_GateCollector
 {
     public partial class Form1 : Form
     {
-        List<Planet> planets = new List<Planet>(Program.LoadPlanets());
+        List<Planet> planets = new List<Planet>(NMS_GateCollector.LoadPlanets());
         public Form1()
         {
             InitializeComponent();
@@ -27,40 +27,38 @@ namespace NMS_GateCollector
             PlanetList.AllowUserToAddRows = false;
             PlanetList.DataSource = planets;
 
-            DataGridViewTextBoxColumn Column1 = new DataGridViewTextBoxColumn();
-            Column1.Name = "Galaxy";
-            Column1.HeaderText = "Galaxy";
-            Column1.DataPropertyName = "GalaxyName";
-            Column1.Width = (PlanetList.Width / 4) - 15;
+            DataGridViewTextBoxColumn Column1 = new DataGridViewTextBoxColumn
+            {
+                Name = "Galaxy",
+                HeaderText = "Galaxy",
+                DataPropertyName = "GalaxyName",
+                Width = (PlanetList.Width / 4) - 15
+            };
             PlanetList.Columns.Add(Column1);
-            DataGridViewTextBoxColumn Column2 = new DataGridViewTextBoxColumn();
-            Column2.Name = "Planet";
-            Column2.HeaderText = "Custom Name";
-            Column2.DataPropertyName = "Name";
-            Column2.Width = (PlanetList.Width / 4) - 15;
+            DataGridViewTextBoxColumn Column2 = new DataGridViewTextBoxColumn
+            {
+                Name = "Planet",
+                HeaderText = "Custom Name",
+                DataPropertyName = "Name",
+                Width = (PlanetList.Width / 4) - 15
+            };
             PlanetList.Columns.Add(Column2);
-            DataGridViewTextBoxColumn Column3 = new DataGridViewTextBoxColumn();
-            Column3.Name = "Discoverer";
-            Column3.HeaderText = "Discovered By";
-            Column3.DataPropertyName = "Discoverer";
-            Column3.Width = (PlanetList.Width / 4) - 15;
+            DataGridViewTextBoxColumn Column3 = new DataGridViewTextBoxColumn
+            {
+                Name = "Discoverer",
+                HeaderText = "Discovered By",
+                DataPropertyName = "Discoverer",
+                Width = (PlanetList.Width / 4) - 15
+            };
             PlanetList.Columns.Add(Column3);
-            DataGridViewTextBoxColumn Column4 = new DataGridViewTextBoxColumn();
-            Column4.Name = "Gate";
-            Column4.HeaderText = "Gate Address";
-            Column4.DataPropertyName = "GateAddress";
-            Column4.Width = (PlanetList.Width / 4) - 15;
+            DataGridViewTextBoxColumn Column4 = new DataGridViewTextBoxColumn
+            {
+                Name = "Gate",
+                HeaderText = "Gate Address",
+                DataPropertyName = "GateAddress",
+                Width = (PlanetList.Width / 4) - 15
+            };
             PlanetList.Columns.Add(Column4);
-        }
-
-        private void PlanetList_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void planetBindingSource_CurrentChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void PlanetList_CellClick(object sender, DataGridViewCellEventArgs e)
