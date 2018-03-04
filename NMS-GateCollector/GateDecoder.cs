@@ -69,4 +69,17 @@ namespace NMS_GateCollector
             GalaxyName = Properties.Resources.ResourceManager.GetString(string.Format("Gal{0}", worldData.Dd.GateData.Galaxy));
         }
     }
+
+    class PlanetEqualityComparator : IEqualityComparer<Planet>
+    {
+        public bool Equals(Planet x, Planet y)
+        {
+            return x.Id == y.Id;
+        }
+
+        public int GetHashCode(Planet obj)
+        {
+            return obj.Id.GetHashCode();
+        }
+    }
 }

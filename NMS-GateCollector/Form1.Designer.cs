@@ -59,7 +59,7 @@
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Black;
-            this.pictureBox9.Location = new System.Drawing.Point(929, 420);
+            this.pictureBox9.Location = new System.Drawing.Point(929, 713);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(80, 80);
@@ -69,7 +69,7 @@
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Black;
-            this.pictureBox10.Location = new System.Drawing.Point(848, 420);
+            this.pictureBox10.Location = new System.Drawing.Point(848, 713);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(80, 80);
@@ -79,7 +79,7 @@
             // pictureBox11
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.Black;
-            this.pictureBox11.Location = new System.Drawing.Point(767, 420);
+            this.pictureBox11.Location = new System.Drawing.Point(767, 713);
             this.pictureBox11.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(80, 80);
@@ -89,7 +89,7 @@
             // pictureBox12
             // 
             this.pictureBox12.BackColor = System.Drawing.Color.Black;
-            this.pictureBox12.Location = new System.Drawing.Point(686, 420);
+            this.pictureBox12.Location = new System.Drawing.Point(686, 713);
             this.pictureBox12.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(80, 80);
@@ -99,7 +99,7 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Black;
-            this.pictureBox5.Location = new System.Drawing.Point(605, 420);
+            this.pictureBox5.Location = new System.Drawing.Point(605, 713);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(80, 80);
@@ -109,7 +109,7 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Black;
-            this.pictureBox6.Location = new System.Drawing.Point(524, 420);
+            this.pictureBox6.Location = new System.Drawing.Point(524, 713);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(80, 80);
@@ -119,7 +119,7 @@
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Black;
-            this.pictureBox7.Location = new System.Drawing.Point(443, 420);
+            this.pictureBox7.Location = new System.Drawing.Point(443, 713);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(80, 80);
@@ -129,7 +129,7 @@
             // pictureBox8
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Black;
-            this.pictureBox8.Location = new System.Drawing.Point(362, 420);
+            this.pictureBox8.Location = new System.Drawing.Point(362, 713);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(80, 80);
@@ -139,7 +139,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Black;
-            this.pictureBox3.Location = new System.Drawing.Point(281, 420);
+            this.pictureBox3.Location = new System.Drawing.Point(281, 713);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(80, 80);
@@ -149,7 +149,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Black;
-            this.pictureBox4.Location = new System.Drawing.Point(200, 420);
+            this.pictureBox4.Location = new System.Drawing.Point(200, 713);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(80, 80);
@@ -159,7 +159,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Black;
-            this.pictureBox2.Location = new System.Drawing.Point(119, 420);
+            this.pictureBox2.Location = new System.Drawing.Point(119, 713);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(80, 80);
@@ -169,7 +169,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Black;
-            this.pictureBox1.Location = new System.Drawing.Point(37, 420);
+            this.pictureBox1.Location = new System.Drawing.Point(37, 713);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(80, 80);
@@ -182,7 +182,7 @@
             this.PlanetList.Location = new System.Drawing.Point(2, 2);
             this.PlanetList.Name = "PlanetList";
             this.PlanetList.RowTemplate.Height = 24;
-            this.PlanetList.Size = new System.Drawing.Size(1039, 412);
+            this.PlanetList.Size = new System.Drawing.Size(1039, 708);
             this.PlanetList.TabIndex = 13;
             this.PlanetList.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.PlanetList_CellClick);
             // 
@@ -191,7 +191,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1045, 514);
+            this.ClientSize = new System.Drawing.Size(1045, 802);
             this.Controls.Add(this.PlanetList);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox10);

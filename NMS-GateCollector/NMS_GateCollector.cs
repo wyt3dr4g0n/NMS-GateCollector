@@ -10,7 +10,7 @@ using NMS_GateCollector;
 
 namespace NMS_GateCollector
 {
-    static class Program
+    static class NMS_GateCollector
     {
         /// <summary>
         /// The main entry point for the application.
@@ -58,6 +58,10 @@ namespace NMS_GateCollector
                     Console.WriteLine("Error when attempting to process planet in galaxy:{0}", planet.Dd.Ua.String.Substring(6, 2));
                 }
             }
+            planets = planets.OrderBy(p => p.Discoverer)
+                             .OrderBy(p => p.GalaxyName)
+                             .OrderByDescending(p => p.Name)
+                             .Distinct(new PlanetEqualityComparator()).ToList();
             return planets;
         }
 
